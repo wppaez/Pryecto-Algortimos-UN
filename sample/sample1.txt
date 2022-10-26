@@ -1,0 +1,27 @@
+Inicio
+Lea a            
+Lea b
+sa=0
+sb=0
+la=a-1
+lb=b-1
+Para i=la,2,-1
+t=amodi
+Si (t=0)
+sa=sa+i
+Fsi
+Fpara
+Para i=2,lb,+1
+t=bmodi
+Si (t=0)
+sb=sb+i
+Fsi
+Fpara
+Si (na==sb) y (nb==sa)
+Esc “son amigos”
+sino
+Esc “no son amigos”
+Esc a
+Esc b
+Fsi
+Pare

@@ -1,0 +1,20 @@
+Lea a
+si a = 10
+Esc ' es 10'
+sino
+Esc'no es 10'
+Fsi
+
+stack=[]
+2
+3
+star = (1,)
+stack =[]
+stack=[(1,3)]
+4
+5
+star  = (1,3)
+stack = []
+sis= [(1,3,5)]
+-----
+[1,1,1,0,1,0]

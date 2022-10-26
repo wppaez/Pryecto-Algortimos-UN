@@ -1,0 +1,16 @@
+Inicio
+Lea n
+s=0
+k=n/2
+Para i=k,1,-1
+t=nmodi
+Si (t=0)
+s=s+i
+Fsi
+Fpara
+Si (s==n)
+Esc “es perfecto”
+sino
+Esc “no es perfecto”
+Fsi
+Pare

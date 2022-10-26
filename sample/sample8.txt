@@ -1,0 +1,40 @@
+Inicio
+a=10
+	Para i=1,10,+1
+		esc i
+	Fpara
+        Si (1 > 10) 
+           esc 'hola'
+        Sino
+           esc 'hola'
+           esc 'hola'
+        Fsi  
+	Para i=1,10,+1
+		esc i
+		Para j=2,5,+1
+			Para k=1,3,+1
+				a = i+j+k
+				esc a
+			Fpara
+		Fpara	
+		esc i
+		esc 'sample #07'
+		Para j=2,5,+1
+			Para k=1,3,+1
+                            Si (1 > 10) 
+                                esc 'hola'
+                            Sino
+                                esc 'hola'
+                                esc 'hola'
+                            Fsi
+				a = i+j+k
+				esc a
+			Fpara
+		Fpara	
+		esc i
+		esc 'sample #07'	
+	Fpara
+	Para i=1,10,+1
+		esc i
+	Fpara
+Pare

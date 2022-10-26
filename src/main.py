@@ -312,14 +312,13 @@ def main():
 	#print(paras)
 	sis = get_si_pairs(line_file)
 	#print(sis)
-	#print('-----------')
 	worst_cases = get_worst_cases(line_file, single_lines_values, sis)
 	#print(worst_cases)
-	#print('----------')
 	tn_blocks = simplify_code(line_file, paras, sis,worst_cases)
-	print('T(n) = ', tn_blocks)
- 
-
+	vars = re.findall(r'[a-zA-Z][a-zA-Z0-9_]*', str(tn_blocks))
+	fn_name = f'T({", ".join(vars)})'
+	result = f'{fn_name} = {str(tn_blocks)}'
+	print(result)
 if __name__ == '__main__':
     main()
     
